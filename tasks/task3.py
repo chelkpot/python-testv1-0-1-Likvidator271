@@ -8,7 +8,7 @@ def solve():
     height = float(input("Введите ваш рост в метрах: "))  
 
     bmi = weight / (height ** 2)  
-    print(f"\nВаш индекс массы тела (BMI): {bmi:.2f}")
+    print("Ваш индекс массы тела (BMI): {bmi}")
    
 
 # Код ниже не трогать! он нужен для тестов
